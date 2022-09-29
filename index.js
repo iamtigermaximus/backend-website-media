@@ -67,7 +67,8 @@ mongoose.connect(
     console.log('connected')
   }
 )
-app.listen(process.env.PORT || 8000, (err) => {
+
+app.listen(process.env.PORT || 3001, (err) => {
   if (err) throw err
   console.log('Server started')
 })
